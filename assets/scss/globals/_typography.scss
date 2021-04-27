@@ -12,7 +12,10 @@ a {
 }
 
 // Headers
-h1 {}
+h1 {
+  font: $bold rem(40)/rem(45) $sans;
+  color: $white;
+}
 h2 {}
 h3 {}
 h4 {}
@@ -22,6 +25,7 @@ h6 {}
 // Body Copy
 p, ul, ol, li {
   margin-bottom: 15px;
+  color: $bodyCopy;
 }
 
 // Media Queries
