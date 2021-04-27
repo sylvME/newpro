@@ -2,7 +2,7 @@
   Gulpfile.js
 ------------------------------------------------------------------------------*/
 // Theme information (name, starting theme version)
-var theme        = 'prelude-plus',
+var theme        = 'new-pro',
     version      = '0.0.2'; // updated with gulp version task, do not edit here.
 
 // Set the paths you will be working with
@@ -24,7 +24,7 @@ var phpFiles     = ['./**/*.php', './*.php'],
       '!./assets/js/theme.min.js',
       '!./assets/js/all.js'
     ],
-    url          = 'preludeplus.local'; // See https://browsersync.io/docs/options/#option-proxy
+    url          = 'new-pro.local'; // See https://browsersync.io/docs/options/#option-proxy
 
 // Include gulp
 var gulp         = require('gulp');
