@@ -20,6 +20,7 @@ if (!(is_admin() )) {
 function prelude_theme_scripts() {
   // CSS
   wp_enqueue_style('prelude-css', get_template_directory_uri() . '/assets/css/theme.min.css', array(), THEME_VERSION );
+  wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,700;1,400;1,700&display=swap', array(), THEME_VERSION );
   wp_enqueue_style('aos-css', get_template_directory_uri() . '/assets/css/aos.min.css', array(), THEME_VERSION );
   wp_enqueue_style('remodal-css', get_stylesheet_directory_uri() . '/assets/css/remodal.min.css', array(), THEME_VERSION );
 
