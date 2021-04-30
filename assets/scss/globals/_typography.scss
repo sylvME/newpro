@@ -16,18 +16,66 @@ h1 {
   font: $bold rem(40)/rem(45) $sans;
   color: $white;
 }
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
+h2 {
+  font: $bold rem(30)/rem(40) $sans;
+  color: $secondary;
+}
+h3 {
+  font: $bold rem(25)/rem(30) $serif;
+  color: $primary;
+}
+h4 {
+  font: $bold rem(25)/rem(30) $serif;
+  color: $gray;
+}
+h5 {
+  font: $bold rem(18)/rem(23) $sans;
+  color: $dark;
+}
+h6 {
+  font: $bold rem(20)/rem(24) $sans;
+  color: $bodyCopy;
+}
 
 // Body Copy
-p, ul, ol, li {
+p, ul, ol {
   margin-bottom: 15px;
+}
+
+p, li {
+  font: $regular rem(16)/rem(18) $sans;
   color: $bodyCopy;
 }
 
 // Media Queries
 @media screen and (max-width: $small-breakpoint) {
+  h1 {
+    font: $bold rem(40)/rem(45) $sans;
+    color: $white;
+  }
+  h2 {
+    font: $bold rem(30)/rem(40) $sans;
+    color: $secondary;
+  }
+  h3 {
+    font: $bold rem(25)/rem(30) $serif;
+    color: $primary;
+  }
+  h4 {
+    font: $bold rem(25)/rem(30) $serif;
+    color: $gray;
+  }
+  h5 {
+    font: $bold rem(18)/rem(23) $sans;
+    color: $dark;
+  }
+  h6 {
+    font: $bold rem(20)/rem(24) $sans;
+    color: $bodyCopy;
+  }
+  
+  // Body Copy
+  p, ul, ol {
+    margin-bottom: 15px;
+  }
 }
